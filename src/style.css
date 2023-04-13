@@ -1,3 +1,83 @@
-body {
-    background-color: bisque;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  background-color: white;
+}
+
+h1 {
+  padding-top: 0.6em;
+  margin: 0.5em;
+}
+
+h2 {
+  font-size: small;
+}
+
+main {
+  min-height: 90vh;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 2.4em;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: flex-end;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.margin {
+  margin: 0.2em;
+  padding: 0.2em;
+}
+
+.margin-b {
+  margin-bottom: 1em;
+}
+
+li,
+input {
+  padding: 0.2em;
+}
+
+li:nth-child(even) {
+  background-color: rgb(138, 138, 138);
+}
+
+.scoreList {
+  border: 2px solid black;
+}
+
+label {
+  display: none;
+}
+
+input {
+  width: 100%;
+  border: 2px solid black;
+}
+
+.button-adj {
+  padding: 0.1em;
+  font-weight: 500;
 }
