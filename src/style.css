@@ -81,3 +81,26 @@ input {
   padding: 0.1em;
   font-weight: 500;
 }
+
+@media only screen and (min-width: 720px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .flex-column {
+    width: 70%;
+  }
+
+  .containerOne {
+    padding-left: 5em;
+  }
+
+  .button-adj {
+    padding: 0.5em;
+    font-weight: 600;
+  }
+}
