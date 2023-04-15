@@ -154,8 +154,6 @@ Github Pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [ ] **Send and receive data from API.**
 - [ ] **Style final touches.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
