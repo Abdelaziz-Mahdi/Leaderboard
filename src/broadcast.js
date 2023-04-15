@@ -1,6 +1,6 @@
 // send new score to API
 
-export default async function broadcast(raw) {
+export const broadcast = async (raw) => {
   const myHeaders = new Headers();
   myHeaders.append('Content-Type', 'application/json');
   const requestOptions = {

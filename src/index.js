@@ -1,6 +1,6 @@
 import './style.css';
-import populate from './populate.js';
-import broadcast from './broadcast.js';
+import { populate } from './populate.js';
+import { broadcast } from './broadcast.js';
 
 // Update scores when refresh button is pressed
 

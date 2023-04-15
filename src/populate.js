@@ -1,6 +1,6 @@
 // get scores from API
 
-export default async function populate() {
+export const populate = async () => {
   const requestOptions = {
     method: 'GET',
     redirect: 'follow',
