@@ -9,7 +9,7 @@ const loadScores = async () => {
   const ulContainer = document.querySelector('.scoreList');
   ulContainer.replaceChildren();
   const superHeroes = await populate();
-  for (let i = 0; i < superHeroes.result.length; i+=1) {
+  for (let i = 0; i < superHeroes.result.length; i += 1) {
     const li = document.createElement('li');
     const sparator = ': ';
     li.textContent = superHeroes.result[i].user + sparator + superHeroes.result[i].score;
@@ -26,7 +26,7 @@ const broadcastNewScore = async () => {
   const nameValue = name.value;
   const score = document.querySelector('#score');
   const scoreValue = score.value;
-  let raw = JSON.stringify({
+  const raw = JSON.stringify({
     user: nameValue,
     score: scoreValue,
   });
