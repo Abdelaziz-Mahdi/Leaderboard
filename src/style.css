@@ -61,11 +61,14 @@ input {
 }
 
 li:nth-child(even) {
-  background-color: rgb(138, 138, 138);
+  background-color: rgb(217, 217, 217);
 }
 
 .scoreList {
-  border: 2px solid black;
+  border: 3px solid black;
+  -webkit-box-shadow: 0.5px 0.5px 2px 0.5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0.5px 0.5px 2px 0.5px rgba(0, 0, 0, 1);
+  box-shadow: 0.5px 0.5px 2px 0.5px rgba(0, 0, 0, 1);
 }
 
 label {
@@ -74,12 +77,18 @@ label {
 
 input {
   width: 100%;
-  border: 2px solid black;
+  border: 3px solid black;
+  -webkit-box-shadow: 0.5px 0.5px 2px 0.5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0.5px 0.5px 2px 0.5px rgba(0, 0, 0, 1);
+  box-shadow: 0.5px 0.5px 2px 0.5px rgba(0, 0, 0, 1);
 }
 
 .button-adj {
   padding: 0.1em;
   font-weight: 500;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
 }
 
 @media only screen and (min-width: 720px) {
