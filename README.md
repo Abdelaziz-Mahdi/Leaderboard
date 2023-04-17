@@ -81,7 +81,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- applicable in future features (https://github.com/Abdelaziz-Ali/Leaderboard)
+- [Leaderboard Demo](https://abdelaziz-ali.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
